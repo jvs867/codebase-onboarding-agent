@@ -142,3 +142,6 @@ Section 19 asks eight questions about [pallets/itsdangerous](https://github.com/
 ## License
 
 [MIT](LICENSE)
+
+## AI Use
+Claude was used extensively to assist in writing code for this project. 
