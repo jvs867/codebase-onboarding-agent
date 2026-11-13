@@ -8,17 +8,14 @@ ask("How does signing work, step by step?",
     repo_url="https://github.com/pallets/itsdangerous")
 ```
 
-That one call is the whole project. Point it at any public Python repo on GitHub, ask a question in plain English, and a LangGraph agent goes digging: it searches the docs and code by meaning (RAG over a Pinecone vector database), follows function calls from file to file, and backs every claim with a `file:line` citation. Each citation gets checked against the real repo and turned into a GitHub link.
+Point it at any public Python repo on GitHub, ask a question in plain English, and a LangGraph agent goes digging: it searches the docs and code by meaning (RAG over a Pinecone vector database), follows function calls from file to file, and backs every claim with a `file:line` citation. Each citation gets checked against the real repo and turned into a GitHub link.
 
-You don't need to write code to use it. Pick whichever fits:
 
 | Way to use it | What you need |
 | :--- | :--- |
 | [Hosted Streamlit app](https://codebase-app-agent-xafqjmzxpga43vvrsckbj7.streamlit.app/) | A browser |
 | Streamlit app on your computer (`app.py`) | Python and two free API keys |
 | Google Colab notebook (includes the evaluation) | A Google account and two free API keys |
-
-Same agent behind all three. New to words like RAG or embedding? There's a glossary at the end.
 
 *Built for Codecademy's Building Agentic AI Applications bootcamp, with Satyajit Pattnaik, Fall 2026 (Contest #1).*
 
