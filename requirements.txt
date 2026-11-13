@@ -11,4 +11,5 @@ langchain-pinecone>=0.2,<0.3
 langchain-text-splitters>=1,<2
 langgraph>=1,<2
 pinecone>=7,<8
-gradio>=6,<7
+gradio>=6,<7                # notebook web UI
+streamlit>=1.40,<2         # app.py web UI (streamlit run app.py)
